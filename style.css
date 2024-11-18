@@ -1,0 +1,740 @@
+.container{
+    width: 100%;
+}
+
+
+.d-flex{
+    margin-left:60%;
+   
+}
+.nav-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.navbar-nav{
+    /* font-family: cursive; */
+    /* margin-right: 50px; */
+    padding-right: 50px;
+}
+
+
+.login{
+    text-decoration: none;
+    color: black;
+    border:1px solid rgb(239, 237, 233);
+    margin: 5px 10px 0px 00px;
+    background-color: rgb(249, 245, 245);
+    padding: 3px 10px  0px 10px;
+    border-radius: 10px;
+}
+.login:hover{
+    color: black;
+    background-color: rgb(164, 160, 160);
+}
+.signup{
+    text-decoration: none;
+    color: white;
+    border:1px solid rgb(239, 237, 233);
+    margin: 5px 10px 0px 00px;
+    background-color: blueviolet;
+    padding: 3px 10px  0px 10px;
+    border-radius: 10px;
+
+}
+.signup:hover{
+    color: white;
+    background-color: rgb(61, 12, 108);
+}
+
+/* .button{
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: px;
+    color: white;
+    margin-top: 0px;
+
+} */
+.textbox{
+    /* border: 2px solid blueviolet; */
+    text-align: center;
+    color: red;
+    background-color: rgb(233, 229, 229);
+    padding: 15px 5px 1px 5px;
+    border-radius: 29px;
+    margin: 30px 36% 30px 45%;
+}
+.heading{
+    /* margin-bottom: 100px; */
+    text-align: center;
+}
+.heading>p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.searchbar{
+    /* margin: 50px; */
+    padding: 8px  350px 8px 10px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.button1{
+    background-color: blueviolet;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    margin: 8px 10px 8px -20px;
+}
+
+
+.carousel{
+    width: 50%;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.carousel-item{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-item  a{
+    padding: 10px;
+    border: 2px solid rgb(216, 215, 215);
+    border-radius: 30px;
+
+   
+} 
+.carousel-item{
+    height: 100px;
+    /* margin-top: 100px; */
+}
+.carousel-control-prev{
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+
+
+}
+.carousel-control-next{
+    /* border: 0px solid black; */
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-icon{
+    color: black;
+}
+.carousel-item button{
+    margin: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    /* color: blue; */
+
+}
+.para{
+    /* font-weight: 700; */
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.para>h1{
+    font-weight: 700;
+}
+.footer1{
+    display: flex;
+
+    
+}
+.right{
+    margin-left: 50%;
+
+}
+.right img{
+    /* align-items: flex-end; */
+    /* margin-top: 20px; */
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    flex: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginform{
+    border: 1px solid rgb(223, 221, 221);
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+}
+.radiobutton{
+    display: flex;
+}
+#loginbtn{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+
+.signupform{
+    border: 1px solid rgb(223, 221, 221);
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+
+}
+.input-group{
+    width: 400px;
+    margin-left: 180px;
+   
+}
+#inputGroupFile04{
+    width: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.form-chec{
+    margin-right: 10px;
+}
+#choosefile{
+    margin-left: 270px;
+    margin-top: -10px;
+    padding-bottom: 8px;
+}
+#signupbtn{
+    width: 100%;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    
+.d-flex{
+    /* border: 2px solid black; */
+    margin-left: 50%;
+    
+   
+}
+.nav-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.navbar-nav{
+    /* font-family: cursive; */
+    margin-right: 50px;
+    padding-right: 0px;
+}
+
+.textbox{
+    /* border: 2px solid blueviolet; */
+    text-align: center;
+    color: red;
+    background-color: rgb(233, 229, 229);
+    padding: 15px 5px 1px 5px;
+    border-radius: 29px;
+    margin: 30px 36% 30px 35%;
+}
+
+.right{
+    margin-left: 30%;
+
+}
+    
+  }
+  
+
+
+
+
+
+  @media screen and (max-width: 770px) {
+       
+.d-flex{
+    /* border: 2px solid black; */
+    margin-left: 30%;
+    
+   
+}
+.nav-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.navbar-nav{
+    /* font-family: cursive; */
+    margin-right: 50px;
+    padding-right: 0px;
+}
+
+.textbox{
+    width: 200px;
+}
+
+.searchbar{
+    /* margin: 50px; */
+    padding: 8px  200px 8px 10px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.carousel{
+    width: 70%;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.right{
+    margin-left: 10%;
+
+}
+  }
+
+
+
+
+  @media screen and (max-width: 600px){
+          
+.d-flex{
+    /* border: 2px solid black; */
+    margin-left: 8%;
+    
+   
+}
+
+  }
+  
+  @media screen and (max-width: 500px){
+          
+    .d-flex{
+        margin-left:10px;
+        
+        
+       
+    }
+    .navbar-brand{
+        margin: 0px;
+    }
+    
+.navbar-nav{
+    margin: 0px -10px 0px -20px;
+    /* font-family: cursive; */
+    /* margin-right: 50px; */
+    /* padding: 5px 5px; */
+}
+
+.textbox{
+    /* border: 2px solid blueviolet; */
+    /* text-align: center; */
+    color: red;
+    background-color: rgb(233, 229, 229);
+    padding: 15px 5px 1px 5px;
+    border-radius: 29px;
+    margin: 30px 36% 30px 20%;
+}
+
+.heading{
+    /* margin-bottom: 100px; */
+    text-align: center;
+}
+.heading>p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.searchbar{
+    /* margin: 50px; */
+    /* width: 10px; */
+    padding: 8px  0px 8px 10px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.button1{
+    background-color: blueviolet;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    margin: 8px 10px 8px -20px;
+}
+
+
+.carousel{
+    width: 80%;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.carousel-item{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-item  a{
+    padding: 10px;
+    border: 2px solid rgb(216, 215, 215);
+    border-radius: 30px;
+
+   
+} 
+.carousel-item{
+    height: 100px;
+    /* margin-top: 100px; */
+}
+.carousel-control-prev{
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+
+
+}
+.carousel-control-next{
+    /* border: 0px solid black; */
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-icon{
+    color: black;
+}
+.carousel-item button{
+    margin: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    /* color: blue; */
+
+}
+.left{
+    width: 180px;
+}
+
+.right{
+    /* margin-left: -15%; */
+
+}
+.right img{
+    padding: 1px;
+}
+}
+
+
+  @media screen and (max-width: 420px){
+          
+    .d-flex{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:15px;
+        
+       
+    }
+    .navbar-brand{
+        margin: 0px;
+    }
+    
+.navbar-nav{
+    /* font-family: cursive; */
+    /* margin-right: 50px; */
+    padding: 5px 10px;
+}
+
+.textbox{
+    /* border: 2px solid blueviolet; */
+    /* text-align: center; */
+    color: red;
+    background-color: rgb(233, 229, 229);
+    padding: 15px 5px 1px 5px;
+    border-radius: 29px;
+    margin: 30px 36% 30px 20%;
+}
+
+.heading{
+    /* margin-bottom: 100px; */
+    text-align: center;
+}
+.heading>p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.searchbar{
+    /* margin: 50px; */
+    /* width: 10px; */
+    padding: 8px  0px 8px 10px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.button1{
+    background-color: blueviolet;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    margin: 8px 10px 8px -20px;
+}
+
+
+.carousel{
+    width: 80%;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.carousel-item{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-item  a{
+    padding: 10px;
+    border: 2px solid rgb(216, 215, 215);
+    border-radius: 30px;
+
+   
+} 
+.carousel-item{
+    height: 100px;
+    /* margin-top: 100px; */
+}
+.carousel-control-prev{
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+
+
+}
+.carousel-control-next{
+    /* border: 0px solid black; */
+    border-radius: 50%;
+    /* color: black; */
+    background-color: rgb(246, 241, 241);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-icon{
+    color: black;
+}
+.carousel-item button{
+    margin: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    /* color: blue; */
+
+}
+.left{
+    width: 180px;
+}
+
+.right{
+    /* margin-left: -15%; */
+
+}
+.right img{
+    padding: 1px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+    
+
+
+
+    .signupform{
+        border: 1px solid rgb(223, 221, 221);
+        width: 500px;
+        margin: auto;
+        padding: 15px;
+        margin-top: 40px;
+    
+    }
+    .input-group{
+        width: 400px;
+        margin-left: 180px;
+       
+    }
+    #inputGroupFile04{
+        width: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .form-chec{
+        margin-right: 10px;
+    }
+    #choosefile{
+        width: 300px;
+        margin-left: 150px;
+        margin-top: -25px;
+        padding-bottom: 8px;
+    }
+    #signupbtn{
+        width: 100%;
+    
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 520px) {
+    
+
+
+
+    .signupform{
+        border: 1px solid rgb(223, 221, 221);
+        width: 350px;
+        margin: auto;
+        padding: 15px;
+        margin-top: 40px;
+    
+    }
+    .input-group{
+        flex-direction: column;
+        /* width: 400px; */
+        /* margin-left: 180px; */
+       
+    }
+    #inputGroupFile04{
+        width: 200px;
+        margin-bottom: 10px;
+        margin-left: -65px;
+        align-items: start;
+    }
+    .div1{
+        /* width: 400px; */
+        /* background-color: blue; */
+        /* height: 400px; */
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction:column;
+    }
+    .form-chec{
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    #choosefile{
+        width: 300px;
+        margin-left: 150px;
+        margin-top: -25px;
+        padding-bottom: 8px;
+    }
+    #signupbtn{
+        width: 100%;
+    
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    
+.loginform{
+    border: 1px solid rgb(223, 221, 221);
+    width: 530px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+    
+}
+
+
+@media screen and (max-width: 560px)
+{
+    
+.loginform{
+    border: 1px solid rgb(223, 221, 221);
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+}
+.radiobutton{
+    display: flex;
+    /* flex-direction: column; */
+
+    
+}
+
+
+#loginbtn{
+    width: 100%;
+    margin-top: -50px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 425px)
+{
+    
+.loginform{
+    border: 1px solid rgb(223, 221, 221);
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+}
+.radiobutton{
+    display: flex;
+}
+#loginbtn{
+    width: 100%;
+    margin-top: -60px;
+}
+
+}
+
+@media screen and (max-width: 1005px){
+  
+    .form-check{
+        width: 300px;
+    }
+
+
+}
